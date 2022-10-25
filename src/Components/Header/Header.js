@@ -27,7 +27,7 @@ const Header = (props) => {
         </MenuWrap>
         <div className="whole">
         <div className="itemContainer">
-      <StyledCart exact to="/cart"><AiOutlineShopping onClick={handleClick} className="cart" size={25}/></StyledCart>
+      <StyledCart exact to="/cart"> <AiOutlineShopping onClick={handleClick} className="cart" size={35}/>{props.count}</StyledCart>
         </div>
         </div>
       </HeaderWrap>

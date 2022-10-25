@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Container, Line } from "./Content.styles";
 
@@ -12,6 +13,7 @@ function Content() {
       <h2> 2069 Arena Blvd #130, Sacramento, CA 95834</h2>
       <h2>Opening hours: Mon-Fri 6am-5pm</h2>
       <h2>Call: (916)692-5134</h2>
+      <Link to="/menu"><button className="shop-button">Shop Now!</button></Link>
     </Container>
   );
 }

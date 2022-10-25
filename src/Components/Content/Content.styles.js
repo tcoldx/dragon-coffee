@@ -33,6 +33,18 @@ export const Container = styled.div`
     font-family: "Quicksand", sans-serif;
     margin-top: -40px;
   }
+
+  & .shop-button {
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    background: lightgreen;
+    border-radius: 8px;
+    width: 20vw;
+
+    cursor: pointer;
+    padding: 12px;
+    color: white;
+  }
 `;
 
 export const Line = styled.div`

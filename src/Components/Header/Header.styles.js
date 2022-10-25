@@ -12,6 +12,7 @@ export const HeaderWrap = styled.div`
   & .logoandtitle {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 43px;
   }
 
@@ -24,16 +25,24 @@ export const HeaderWrap = styled.div`
   & .itemContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
 `;
 
 export const StyledCart = styled(Link)`
 text-decoration: none;
-color: black;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
 `
 
-export const StyledLink = styled(Link)``;
+export const StyledLink = styled(Link)`
+text-decoration: none;
+color: white;
+`;
 
 export const MenuWrap = styled.div`
   font-family: "Quicksand", sans-serif;

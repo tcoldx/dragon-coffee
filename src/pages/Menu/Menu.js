@@ -30,7 +30,7 @@ function Menu(props) {
          
                 {coffeeArray.map(item => {
                     return (
-                        <div className="inner-card">
+                        <div key={item.name} className="inner-card">
                         <img width={200} height={200} src={item.img} alt="img"/>
                 <div className="bottom">
                 <div className="purchase-container">
